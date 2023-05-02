@@ -1,0 +1,846 @@
+/*General CSS START*/
+a {
+    color: #222;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    transition: all ease 0.4s;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #777777;
+    font-weight: 300;
+    line-height: 1.65em;    
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 140px 0 0 0;
+}
+/*General CSS END*/
+
+/*Section Header CSS Start*/
+#header {
+    display: block;
+    background: #fff;
+    z-index: 10;
+    box-shadow: 20px -1px 20px 0px rgb(211, 206, 206);
+    font-weight: bolder;
+    margin:0 auto;
+    padding: 120 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header .container {
+    padding: 22px;
+    background-color: #ffffff;
+}
+
+/*main-menu CSS Start*/
+#main-menu {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+
+#main-menu>ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#main-menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#main-menu a:hover {
+    color: #8490ff
+}
+
+#main-menu>ul>li>a {
+    padding: 0 6px;
+    font-size: 12px;
+}
+
+#main-menu li:hover > a, .active {
+    color: #8490ff !important;
+}
+
+#main-menu>ul>li {
+    position: relative;
+}
+
+#main-menu>ul>li:hover>ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+#main-menu>ul>li>ul {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    color: white;
+    width: max-content;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: all;
+    transition-duration:  0.3s;
+    transition-delay: 0.4s;
+    box-shadow:1px 2px 30px  rgb(201, 210, 226) ;
+    opacity: 0;
+}
+
+#main-menu>ul>li>ul>li {
+    display: block;
+    margin: 14px 5px;
+}
+
+#main-menu>ul>li>ul>li>ul>li>a {
+    display: block;
+    padding-right: 30px;
+}
+
+#main-menu>ul>li>ul>li>a {
+    padding-right: 70px;
+}
+
+#main-menu>ul>li>ul>li>a {
+    padding-right: 100px;
+}
+
+#main-menu>ul>li>ul>li>ul>li {
+    display: block;
+    margin:6px 5px;
+}
+    
+#main-menu>ul>li>ul>li {
+    position: relative;
+}
+    
+#main-menu>ul>li>ul>li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+}
+    
+#main-menu>ul>li>ul>li>ul {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    width: max-content;
+    position: absolute;  
+    top: 0.2px;
+    right: 161.4px;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: all;
+    transition-duration:  0s;
+    transition-delay: 0.4s;
+    font-size: 11px;
+    font-weight: bold;
+    box-shadow:1px 2px 30px  rgb(201, 210, 226) ;                                                                                      
+}
+
+#main-menu>ul>li>ul>li>ul>li>a {
+    margin-right: 90px;
+}
+/*main-menu CSS End*/
+/* Section Header CSS END*/
+
+
+/* Section PHLILP GILBERT CSS Start*/
+.hero-header {
+    background: #f9f9ff;
+}
+
+.hero-header h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #222222;
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+
+.hero-header h1 {
+    color: #04091e;
+    font-weight: 600;
+}
+
+.hero-header p {
+    background: #f9f9ff;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.primary-btn {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+
+.primary-btn:hover {
+    transition: all 0.5s;
+    box-shadow: 0px 20px 20px 0px rgb(132 144 255 / 30%);
+}
+/* Section PHLILP GILBERT CSS END*/
+
+
+/* Section ABOUT ME CSS Start*/
+.img-GILBERT {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.home-about-area h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.home-about-area h2 {
+    color: #04091e;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.home-about-area p {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.col-6 {
+    margin-right: 70px;
+    position: relative;
+}
+
+.text {
+    margin-right: 50px;
+}
+/* Section ABOUT ME CSS End*/
+
+
+/* Section services-area CSS Start */
+.services-area h1 {
+    color: #04091e;
+    line-height: 1.2em !important;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.services-area p {
+    color: #777777;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+.services-area i {
+    font-size: 36px;
+}
+
+.icon-box i {
+    font-size: 36px;
+}
+
+.icon-box {
+    text-align: center;
+}
+
+.t {
+    transition: .5s ease-in-out;
+}
+
+.icon-box:hover .t {
+    color:#8490ff;
+    transition: .2s ease-in-out;
+}
+.icon-box:hover .lnr {
+    color:#8490ff;
+    transition: .1s ease-in-out;
+}
+
+.services-area h3 {
+    color: #04091e;
+    font-weight: 600;
+}
+
+.icon-box .lnr {
+    font-size: 35px;
+    color: #222;
+    transition: all 0.9s ease 0s;
+}
+/* Section services-area CSS End */
+
+
+/* --*//* --*/
+/* --*//* --*/
+/* --*//* --*/
+.row {
+    width: 100%;
+    display: flex;
+    gap:20px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-3 {
+    width:25%;
+}
+
+/* title-section Start*/
+.title-section {
+    display: flex;
+}
+
+.title-section h1 {
+    margin: 20px 0;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.title-section h2 {
+    margin: 20px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.title-section h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 14pxs;
+    color: #222222;
+}
+/* title-section END*/
+
+.image-section {
+    display: flex;
+    align-items: end;
+    size: 40px;
+}
+
+.mb-10 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.single-fact h1 {
+    font-weight: 700;
+}
+
+.single-fact.h1, .single-fact p {
+    color: #fff;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.title-section h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+/* --*//* --*/
+/* --*//* --*/
+/* --*//* --*/
+
+
+/* Section facts-area CSS Start */
+.facts-area {
+    padding: 120px 0;
+    background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.facts-area h1 {
+    font-size: 36px;
+    margin: 10px;
+}
+
+.facts-area h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1em sans-serif;
+}
+/* Section facts-area CSS End */
+
+
+/* Section portfolio-area CSS Start */
+/* menu-second CSS Start */
+.portfolio-area h1 {
+    color: #04091e;
+    line-height: 1.2em !important;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.portfolio-area p {
+    color: #777777;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#menu-second>ul>li {
+    list-style: none;
+    display: inline-block;
+    padding: 18px 15px;
+    position: relative;
+    color: #222;
+    font-size: 12px;
+    font-weight: 500;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+#menu-second {
+    text-align: center;
+}
+/* menu-second CSS End */
+
+.overly {
+    opacity: 0;
+    width: 100%;
+    background-color: #0056b3;
+    height: 100%;
+    position: absolute;
+    transition: .3s ease-in;
+    border-radius: 15px;
+}
+
+.card:hover .overly {
+    opacity: .5;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background-color: #8490ff;
+    color: #fff;
+}
+
+.tumb {
+    position: relative;
+    margin: 0px;
+}
+
+.card {
+    text-align: center;
+}
+
+.tumb img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-area h3 {
+    color: #04091e;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.portfolio-area h6 {
+    font-size: 14px;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+/* Section portfolio-area CSS End */
+
+
+/* Section testimonial CSS Start */
+.testimonial-area {
+    background-color: #f9f9ff;
+}
+
+.testimonial-area h1 {
+    color: #04091e;
+    line-height: 1.2em !important;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.testimonial-area p {
+    color: #777777;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+/* Section testimonial CSS End */
+
+
+/* Section price-area CSS Start */
+.section-gap {
+    padding: 120px 0;
+}
+
+.row-price-area {
+    margin-top: 100px;
+}
+
+.price-area h1 {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.price-area h4 {
+    font-size: 18px;
+}
+
+.price-area p {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.price-area-col-md-6 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    background-color: #f9f9ff;;
+}
+
+.row-price-area {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.price-area li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li {
+    display: list-item;
+    text-align: match-parent;
+}
+
+.price-area .single-price {
+    margin-bottom: 30px;
+}
+
+.price-area .single-price {
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    background-color: #f9f9ff;
+    padding: 40px 13px;
+}
+
+.price-area .single-price .package-list ul li {
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+.price-area .single-price {
+    margin-bottom: 30px;
+}
+
+.price-area .single-price .package-list {
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.price-area .single-price .bottom-part {
+    transition: all 0.3s ease 0s;
+}
+
+.price-area .single-price:hover .package-no {
+    border-color: rgba(255, 255, 255, 0.21);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.price-area .single-price .package-no {
+    transition: all 0.3s ease 0s;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    background-color: rgba(132, 144, 255, 0.1);
+    border-radius: 100px;
+    align-items: center;
+    display: grid;
+    border: 30px solid rgba(132, 144, 255, 0.1);
+}
+
+.price-area .single-price .bottom-part .price-btn {
+    transition: all 0.3s ease 0s;
+    background-color: #fff;
+    color: #222;
+    padding: 10px 50px;
+    font-weight: 600;
+    display: inline-block;
+    display: none;
+}
+
+/* hover */
+.price-area .single-price:hover {
+    transform: scale(1.05);
+    z-index: 2;
+    color: #fff;
+    cursor: pointer;
+}
+
+.price-area .single-price:hover h1, .price-area .single-price:hover h4 {
+    color: #fff;
+}
+
+.price-area .single-price:hover {
+    transform: scale(1.05);
+    z-index: 2;
+    color: #fff;
+    cursor: pointer;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+/* hover */
+/* Section price-area CSS End */
+
+
+/* Section blog CSS Start */
+.recent-blog-area {
+    background: #f9f9ff;
+}
+
+.recent-blog-area h1 {
+    color: #04091e;
+    line-height: 1.2em !important;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.single-recent-blog h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 35px;
+    transition: all 0.3s ease 0s;
+}
+
+.single-recent-blog:hover {
+    cursor: pointer;
+}
+
+.recent-blog-area .thumb img {
+    width: 100%;
+    transition: all 0.3s ease 0s;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.single-recent-blog .bottom {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}    
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.recent-blog-area p {
+    color: #777777;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}  
+
+.single-recent-blog {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.single-recent-blog .bottom {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.single-recent-blog {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 100px;
+}
+/* Section blog CSS End */
+
+
+/* Section brands-logo css Start */
+.brands-logo {
+    padding: 80px 0;
+    background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    width: auto;  
+}
+
+.brands-logo .col-3 {
+    opacity: .5;
+}
+
+.brands-logo .col-3:hover {
+    transform: scale(1); 
+    text-decoration: none;
+    background-color: transparent;
+    text-decoration: none;
+    opacity: 1;
+    transition: all .5s;
+}
+/* Section brands-logo css End */
+
+
+/* Footer css Start */
+.footer-area {
+    background-color: #04091e;
+}
+
+.footer-group {
+    background-color: #04091e;
+    color: #fff;
+}
+/* Footer css End */
